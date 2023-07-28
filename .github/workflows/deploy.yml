@@ -33,7 +33,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/resume-generator'
+          BASE_PATH: ${{ github.event.repository.name }}
         run: |
           pnpm run build
           touch build/.nojekyll
