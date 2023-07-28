@@ -1,16 +1,27 @@
-# resume-generator
+# Resume generator
+
+Create a beautiful resume and website in seconds
 
 ## Description
 
-Do you want to create a beautiful resume and a website to showcase your skills? Are you tired of searching for templates or you just simply don't have UI/UX skills? Then this project is for you!
+Are you looking to showcase your skills with a beautiful resume and website? Tired of searching for templates or lacking UI/UX skills? Then this project is for you!
 
-This project is a resume generator that will create a resume and a website for you. All you need to do is to pick a template, fill the information about yourself in markdown format and you are good to go!
+This resume generator creates a website where you or recruiters can download your CV as PDF. Simply choose a template, fill in your information using markdown, and you're ready to go!
+
+As any valid markdown, svelte or html syntax is allowed, you can customize your resume as much as you want. Custom styling? We got you. Just use tailwind classes. You can even add your own components!
+
+Want to use icons? No problem! Use already included `svelte-awesome-icons` just like you would use any other component or install any other icon library you want.
 
 ## How to use
 
 1. Fork this repository
-2. Choose a right template for you from the `layouts` folder
+2. Choose a right template for you from the `layouts` folder and edit `src/pages/+page.svx` file
 3. Enable GitHub Pages in the settings of your forked repository
 4. Push your changes to the `master` branch
 
 That's it! Your resume is now available at `https://<your-github-username>.github.io/resume-generator/`
+
+## Useful links
+
+- [Markdown cheatsheet](https://dev.to/imluka/the-only-markdown-cheatsheet-you-will-ever-need-ccg)
+- [Tailwind cheatsheet](https://nerdcave.com/tailwind-cheat-sheet)
