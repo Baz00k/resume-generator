@@ -10,8 +10,8 @@ const config = defineConfig({
 	remarkPlugins: [],
 	rehypePlugins: [],
 	layout: {
-		basic: "/src/layouts/basic/basic.svelte",
-		_: "/src/layouts/basic/basic.svelte"
+		basic: '/src/layouts/basic/basic.svelte',
+		_: '/src/layouts/basic/basic.svelte'
 	}
 });
 
