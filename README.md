@@ -10,19 +10,20 @@ This resume template repo creates a website where you or recruiters can download
 
 As any valid markdown, svelte or html syntax is allowed, you can customize your resume as much as you want. Custom styling? We got you. Just use tailwind classes. You can even add your own components!
 
-Want to use icons? No problem! Use already included `svelte-awesome-icons` just like you would use any other component or install any other icon library you want.
+Want to use icons? No problem! Use already included `@iconify` package let's you use icons from many different providers using `<Icon />` component.
 
 ## How to use
 
 1. Click on the `Use this template` button to create a new repository from this template
 2. Choose a right template for you from the `layouts` folder and edit `src/pages/+page.svx` file
-3. Enable GitHub Pages in the settings of your forked repository
+3. Enable GitHub Pages in the settings of your repository
 4. Push your changes to the `master` branch
 
 That's it! Your resume is now available at `https://<your-github-username>.github.io/resume-generator/`
 
 ## Useful links
 
+- [Iconify icon sets](https://icon-sets.iconify.design/)
 - [Markdown cheatsheet](https://dev.to/imluka/the-only-markdown-cheatsheet-you-will-ever-need-ccg)
 - [Tailwind cheatsheet](https://nerdcave.com/tailwind-cheat-sheet)
 
