@@ -3,7 +3,7 @@ layout: basic
 ---
 
 <script lang="ts">
-    import { Html5Brand, Css3AltBrand, ReactBrand } from 'svelte-awesome-icons'
+    import Icon from '@iconify/svelte';
 </script>
 
 # John Doe
@@ -40,9 +40,9 @@ I am a software engineer with a passion for building products that make a differ
 
 ## Skills
 
-- <Html5Brand class="inline m-0 mr-2" /> HTML
-- <Css3AltBrand class="inline m-0 mr-2" /> CSS
-- <ReactBrand class="inline m-0 mr-2" /> React
+- <Icon icon="skill-icons:html" class="inline m-0 mr-2" /> HTML
+- <Icon icon="skill-icons:css" class="inline m-0 mr-2" /> CSS
+- <Icon icon="skill-icons:javascript" class="inline m-0 mr-2" /> JavaScript
 
 ## Projects
 
