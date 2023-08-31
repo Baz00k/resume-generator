@@ -30,4 +30,4 @@ That's it! Your resume is now available at `https://<your-github-username>.githu
 ## Known issues
 
 - Downloaded PDF is always in light mode
-  
+- PDF generetion does not work in Safari and on mobile devices
