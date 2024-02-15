@@ -15,7 +15,7 @@ Want to use icons? No problem! Use already included `@iconify` package let's you
 ## How to use
 
 1. Click on the `Use this template` button to create a new repository from this template
-2. Choose a right template for you from the `layouts` folder and edit `src/pages/+page.svx` file
+2. Choose a right template for you from the `layouts` folder and edit `src/pages/+page.mdx` file
 3. Enable GitHub Pages in the settings of your repository
 4. Push your changes to the `master` branch
 
