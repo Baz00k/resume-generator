@@ -11,7 +11,7 @@
 	};
 </script>
 
-<header class="hidden md:flex items-center justify-end p-3 md:px-6 w-full print:hidden">
+<header class="hidden md:flex items-center justify-end pt-4 px-6 w-full print:hidden">
 	<button
 		class="flex items-center justify-center bg-gray-200 hover:bg-gray-300 dark:bg-gray-100/10 dark:hover:bg-gray-100/20 py-2 px-4 rounded-full transition-colors duration-300 ease-in-out"
 		on:click={onExportToPDF}
