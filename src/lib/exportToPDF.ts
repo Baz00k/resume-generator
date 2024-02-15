@@ -1,13 +1,6 @@
-export const exportToPDF = () => {
-	// change print page size to #resume div size to avoid page break
-	const resume = document.querySelector('#resume');
-
-	if (!resume) {
-		console.error('No resume element found');
-		return;
-	}
-
-	const { width, height } = resume.getBoundingClientRect();
+export const exportToPDF = (element: Element) => {
+	// change page size to element size to avoid page break or empty pages
+	const { width, height } = element.getBoundingClientRect();
 	const pageWidth = Math.ceil(width);
 	const pageHeight = Math.ceil(height * 1.005); // Height is increased by 0.5% to avoid page break
 
