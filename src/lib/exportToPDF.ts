@@ -1,15 +1,52 @@
+import { getBrowserInfo, browserType } from '$lib/browserInfo';
+
 export const exportToPDF = (element: Element) => {
-	// change page size to element size to avoid page break or empty pages
+	const style = document.createElement('style');
+	const browserInfo = getBrowserInfo();
+
+	if (browserInfo.mobile === true) {
+		// This should never happen, as the button should be hidden on mobile
+		alert('PDF export is not supported on mobile devices');
+		return;
+	}
+
+	switch (browserInfo.type) {
+		case browserType.Safari:
+			style.textContent = getSafariPrintStyle();
+			break;
+
+		default:
+			style.textContent = getOnePagePrintStyles(element);
+			break;
+	}
+
+	document.head.appendChild(style);
+	window.print();
+	style.remove();
+};
+
+const getOnePagePrintStyles = (element: Element) => {
+	// Print the element as one big page
 	const { width, height } = element.getBoundingClientRect();
 	const pageWidth = Math.ceil(width);
 	const pageHeight = Math.ceil(height * 1.005); // Height is increased by 0.5% to avoid page break
 
-	const style = document.createElement('style');
-	style.innerHTML = `@page { size: ${pageWidth}px ${pageHeight}px; margin: 0; }`;
+	return `
+		@page {
+			size: ${pageWidth}px ${pageHeight}px;
+			margin: 0;
+		}
+	`;
+};
 
-	document.head.appendChild(style);
+const getSafariPrintStyle = () => {
+	// Safari ignores absolutely everything, so we can only hope for the best
 
-	window.print();
-
-	style.remove();
+	return `
+		@page {
+			margin: 0;
+			size: auto;
+			page-break-inside: avoid;
+		}
+	`;
 };
