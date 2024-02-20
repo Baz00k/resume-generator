@@ -1,5 +1,5 @@
 <div
-	class="prose dark:prose-invert prose-tokyo px-6 py-8 max-w-full bg-tokyo-light dark:bg-tokyo-storm prose-h2:underline prose-headings:underline-offset-4 prose-headings:decoration-4"
+	class="prose prose-tokyo max-w-full bg-tokyo-light px-6 py-8 dark:prose-invert prose-headings:decoration-4 prose-headings:underline-offset-4 prose-h2:underline dark:bg-tokyo-storm"
 >
 	<slot />
 </div>
