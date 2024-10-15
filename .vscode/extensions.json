@@ -1,3 +1,8 @@
 {
-	"recommendations": ["svelte.svelte-vscode", "sebsojeda.vscode-svx", "bradlc.vscode-tailwindcss"]
+	"recommendations": [
+		"svelte.svelte-vscode",
+		"sebsojeda.vscode-svx",
+		"bradlc.vscode-tailwindcss",
+		"inlang.vs-code-extension"
+	]
 }

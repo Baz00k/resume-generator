@@ -2,9 +2,11 @@
 layout: basic
 ---
 
-<script lang="ts">import Icon from '@iconify/svelte';</script>
+<script lang="ts">
+	import Icon from '@iconify/svelte'; import * as m from '$lib/translations/messages';
+</script>
 
-# John Doe
+# { m.full_name() }
 
 ## About
 
