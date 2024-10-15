@@ -19,7 +19,7 @@ Want to use icons? No problem! Use already included `@iconify` package let's you
 3. Enable GitHub Pages in the settings of your repository
 4. Push your changes to the `master` branch
 
-That's it! Your resume is now available at `https://<your-github-username>.github.io/resume-generator/`
+That's it! Your resume is now available at `https://<your-github-username>.github.io/<your-repo-name>/`
 
 ## Useful links
 
