@@ -1,10 +1,12 @@
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
 
 const config = defineConfig({
-	extensions: ['.svelte.md', '.md', '.mdx'],
+	extensions: ['.svelte.md', '.md', '.mdx', '.svx'],
 
 	smartypants: {
-		dashes: 'oldschool'
+		dashes: 'oldschool',
+		ellipses: true,
+		quotes: true
 	},
 
 	remarkPlugins: [],
