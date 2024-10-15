@@ -23,6 +23,7 @@
 		"@typescript-eslint/parser": "^7.0.1",
 		"autoprefixer": "^10.4.17",
 		"eslint": "^8.56.0",
+		"@total-typescript/tsconfig": "^1.0.4",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
 		"mdsvex": "^0.11.0",
