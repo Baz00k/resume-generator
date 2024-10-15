@@ -17,7 +17,7 @@ Want to use icons? No problem! Use already included `@iconify` package let's you
 1. Click on the `Use this template` button to create a new repository from this template
 2. Choose a right template for you from the `layouts` folder and edit `src/pages/+page.mdx` file
 3. Enable GitHub Pages in the settings of your repository
-4. Push your changes to the `master` branch
+4. Push your changes to the `main` branch
 
 That's it! Your resume is now available at `https://<your-github-username>.github.io/<your-repo-name>/`
 
