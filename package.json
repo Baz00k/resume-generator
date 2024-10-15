@@ -2,7 +2,7 @@
 	"name": "resume-generator",
 	"version": "0.0.2",
 	"private": true,
-	"packageManager": "pnpm@9.0.0+",
+	"packageManager": "pnpm@9.12.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
