@@ -2,7 +2,7 @@ import typography from '@tailwindcss/typography';
 
 /** @type {import('tailwindcss').Config}*/
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts,md,mdx}'],
+	content: ['./src/**/*.{html,js,svelte,ts,md,mdx,svx}'],
 
 	theme: {
 		extend: {
