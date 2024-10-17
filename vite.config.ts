@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	plugins: [
-		paraglide({ project: './project.inlang', outdir: './src/lib/translations' }),
+		paraglide({ project: './translations/settings.inlang', outdir: './src/lib/translations' }),
 		sveltekit()
 	]
 });
