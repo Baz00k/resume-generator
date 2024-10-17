@@ -19,7 +19,7 @@
 
 {#if availableLanguageTags.length > 1}
 	<select
-		class="flex rounded-full border-none bg-gray-200 py-2 pl-4 pr-10 capitalize outline-none ring-inset transition-colors duration-300 ease-in-out hover:bg-gray-300 focus-visible:ring-2 focus-visible:ring-gray-500 dark:bg-gray-100/10 dark:hover:bg-gray-100/20"
+		class="rounded-full border-none bg-gray-200 py-2 pl-4 pr-10 capitalize outline-none ring-inset transition-colors duration-300 ease-in-out hover:bg-gray-300 focus-visible:ring-2 focus-visible:ring-gray-500 dark:bg-gray-100/10 dark:hover:bg-gray-100/20"
 		value={languageTag()}
 		on:change={handleLanguageChange}
 	>
