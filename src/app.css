@@ -13,3 +13,9 @@
 		page-break-inside: avoid;
 	}
 }
+
+@layer base {
+	.iconify {
+		@apply inline-block size-[1em] align-middle;
+	}
+}
