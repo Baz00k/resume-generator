@@ -2,7 +2,7 @@
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { i18n } from '$lib/i18n';
 
-	import '../app.postcss';
+	import '../app.css';
 	import Header from '$components/Header.svelte';
 </script>
 
